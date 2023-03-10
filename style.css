@@ -1,0 +1,530 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    height: 645vh;
+    font-family: 'Poppins', sans-serif;
+} 
+ /* display property ***********************************************/
+ .display{
+    display: flex;
+    justify-content: space-between;
+ }
+ /* position property **********************************************/
+ .relative{
+    position: relative;
+ }
+ .absolute{
+    position: absolute;
+ }
+ /*header and navbar of the website*********************************/
+nav{
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    height: 80px;
+    background-color: black;
+}
+.navfirsthalf{
+    width: 34%;
+    line-height: 80px;
+}
+.icon1 img{
+    width: 250px;
+    right: 20px;
+    bottom: 45px;
+}
+.navfirsthalf ul li{
+    display: inline-block;
+}
+.navfirsthalf ul li a{
+    color: white;
+}
+.navfirsthalf ul{
+    width: 350px;
+}
+/* searchbar *****************************************************/
+.navsecondhalf{
+    top: 25px;
+    right: 40px;
+    width:340px;
+    height:70px;
+}
+.navserchbar{
+    width: 180px;
+    height: 30px;
+    background-color:#2b2a29;
+    border-radius: 20px;
+}
+.navserchbar input{
+   background-color: #2b2a29;
+   width: 90px;
+   height: 27px;
+   border: none;
+   left: 20px;
+   top: 1.5px;
+}
+.navserchbar span{
+    right: 20px;
+    top: 3px;
+    color: white;
+}
+.icon3 span{
+    color: white;
+}
+.navbtn button{
+    width: 90px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: #d13639;
+    color: black;
+}
+/* ***************************************************** */
+/* header image and text container */
+
+.imgcontainer img{
+    width: 100%;
+}
+.icon4 img{
+    left: 170px;
+   top:170px;
+   width: 360px;
+}
+.text1 h2{
+    top: 430px;
+    left: 260px;
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+}
+.text1 p{
+    top: 480px;
+    left: 145px;
+    text-align: center;
+    color: white;
+}
+.btnwithicon button{
+    width: 265px;
+    height: 67px;
+    border-radius: 20px;
+    border: none;
+    top: 600px;
+    left: 250px;
+    background-color: #13b5d9;
+    box-shadow: 1px 1px 20px 1px rgb(36, 83, 87);
+}
+.arrow1{
+    background-color: black;
+    color: white;
+    width: 45px;
+    height:45px;
+    border-radius: 50px;
+    left: 15px;
+    top: 12px;
+    box-shadow: 1px 1px 10px 1px black;
+}
+.arrow1 span{
+    top: 12px;
+    font-weight:bolder;
+}
+.btnwithicon button p{
+font-size: 33px;
+font-weight: bolder;
+color: white;
+top: 14px;
+right: 15px;
+}
+.btnwithicon button:hover{
+        color: white;
+        box-shadow: 0 5px 15px #afe0f5;
+        transition: 0.5s ease-in-out;
+}
+/* first section "starting from(What's happening?) *************************/
+.text2{
+    position: relative;
+    top: 90px;
+    width: 90%;
+    left: 5%;
+}
+.firstcontainer{
+    position: relative;
+    height: 900px;
+    background-color: #0a0a0a;
+    bottom: 7px;
+    color: white;
+}
+.groupofimgandtext{
+    position: absolute;
+    width: 90%;
+    left: 5%;
+    bottom: 15%;
+}
+.text2 h1{
+   font-size: 40px;
+}
+.text2 p{
+    top: 7px;
+    left: 14px;
+}
+.textpar{
+    border-radius: 12px;
+    width: 100px;
+    height: 40px;
+    background-color: #222222;
+}
+
+.img1 img{
+  height: 520px;
+  width: 1000px;
+  border-radius: 15px;
+
+}
+.groupoftext{
+    height: 520px;
+    flex-direction: column;
+}
+.text3{
+    height: 120px;
+    width: 680px;
+    border-radius: 13px;
+    background-color: #222222;
+}
+.text3 h3{
+    position: relative;
+    top:15px;
+    left: 40px;
+    font-size: 17px;
+}
+.text3 h3 span{
+    position: relative;
+    top: 5px;
+    color:#5e5e5c ;
+    font-size: 20px;
+}
+
+
+.gamescontainer{
+    position: relative;
+    height: 166vh;
+    background-color: #222222;
+     bottom: 8px;
+}
+.gamescontainer h1{
+    color: white;
+    position: absolute;
+    top: 60px;
+    left: 100px;
+    font-size: 40px;
+}
+.onlygames{
+    position: absolute;
+    width: 90%;
+    margin-left: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+}
+.one img{
+    width:170px;
+    
+}
+.one{
+    position: absolute;
+    z-index: 500;
+}
+.two img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+    top: 200px;
+}
+.icon5{
+    top: 350px;
+    left: 50px;
+}
+.icon6{
+    top: 320px;
+    right: 600px;
+}
+.icon7{
+    top: 750px;
+    left: 50px;
+}
+.icon8{
+top: 750px;
+right: 600px;
+}
+.icon9{
+    top: 350px;
+    left: 50px;
+}
+
+.runeterra{
+    position: relative;
+    left: 450px;
+
+}
+
+/*  */
+.esportsgames{
+    position: relative;
+    bottom: 20px;
+    background-color: #222222;
+    height: 70vh;
+    width: 100%;
+}
+.esportsimag{
+    position: absolute;
+    width: 90%;
+    top: 0;
+    left: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+}
+.icon10{
+    position: absolute;
+    top: 330px;
+    left: 50px;
+}
+.icon11{
+    position: absolute;
+    top: 330px;
+    right: 620px;
+}
+.esportsgames h1{
+    color: white;
+    position: absolute;
+    top: 30px;
+    left: 100px;
+    font-size: 40px;
+}
+
+/*  */
+.entertainment{
+    height: 67vh;
+    width: 100%;
+    background-color: #222222;
+    position: relative;
+    bottom: 20px;
+}
+.entertainmentimg{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+    width: 90%;
+    position: relative;
+    left: 5%;
+    top: 0;
+}
+.entertainment h1{
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    left: 100px;
+    top: 60px;
+}
+.icon12{
+    position: absolute;
+    left: 50px;
+    top: 340px;
+}
+.icon13{
+    position: absolute;
+    right: 630px;
+    top: 330px;
+}
+/*  */
+.riotforge{
+    height: 65vh;
+    width: 100%;
+    background-color: #222222;
+    position: relative;
+    bottom: 20px;
+}
+.riotimg{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+    width: 90%;
+    position: relative;
+    left: 5%;
+    top: 200px;
+}
+.three img{
+    width: 150px;
+    position: absolute;
+}
+.four img{
+    width: 100%;
+    border-radius: 18px;
+}
+.icon14 img{
+   top: 60px;
+   left: 30px;
+}
+.icon15 img{
+   top: 60px;
+   right: 950px;
+}
+.icon16 img{
+    top: 70px;
+    right: 380px;
+}
+.riotforge h1{
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    left: 100px;
+    top: 60px;
+}
+.twodoted{
+    position: absolute;
+    width: 30px;
+    border-width: 6px;
+    border-color: rgb(123, 143, 143);
+    border-style:none;
+    border-top-style:dotted;
+    left: 50%;
+    top: 480px;
+}
+/*  */
+.lastone{
+    background-color: #ebebeb;
+    width: 100%;
+    height: 60vh;
+    position: relative;
+    bottom: 20px;
+}
+.imgcontainerlast{
+    width: 50%;
+}
+.imgcontainerlast img{
+    width: 100%;
+    height:100%;
+}
+.white{
+    position: relative;
+    left: 300px;
+    width: 28%;
+    top:50px;
+}
+.lasttext h1{
+    font-size: 45px;
+    text-align: center;
+    font-weight: bolder;
+}
+.lasttext p{
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    color: #656462;
+}
+.lasttext{
+    height: 26%;
+    flex-direction: column;
+}
+.num1{
+    background-color: #dfdede;
+    width: 48%;
+    height: 130px;
+    border-radius: 12px;
+    position: relative;
+    top: 50px;
+}
+.num1 p{
+    font-size: 50px;
+    text-align: center;
+    font-weight: bolder;
+}
+.num1 p span{
+    font-size: 25px;
+    position: relative;
+    bottom: 25px;
+    color: #656462;
+}
+.lastbtn button{
+    position: relative;
+    width: 240px;
+    height: 60px;
+    border-radius: 20px;
+    border: none;
+    background-color: #d1363a;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    top: 80px;
+    left: 135px;
+}
+
+/*  */
+.riotlogolast img{
+    position: relative;
+    bottom: 60px;
+    right: 50px;
+    width: 200px;
+}
+ footer{
+    position: relative;
+    bottom: 20px;
+    color: #656462;
+    height: 30vh;
+    background-color: #222222;
+    width: 100%;
+}
+.footermain{
+    position: relative;
+    left: 12.5%;
+    width: 75%;
+    top: 50px;
+}
+.footertext{
+    position: relative;
+    left: -60px;
+    font-size: 10px;
+    width: 70%;
+    cursor: pointer;
+}
+.footerlogos{
+    cursor: pointer;
+    width: 150px;
+    font-size: 25px;
+}
+.footertext h3:hover{
+    color: white;
+} 
+.footerlogos i:hover{
+    color: #d13639;
+}
+.footerhr {
+    position: relative;
+    width: 75%;
+    left: 12.5%;
+    border-top: none;
+    border-color:#656462;
+}
+.footerlast{
+    width: 75%;
+    position: relative;
+    left: 12.5%;
+    top: 30px;
+}
+.righttext{
+    /* background-color: #13b5d9; */
+    width: 31%;
+    font-size: 13px;
+}
+.righttext hr{
+    height: 16px;
+    border-left: none;
+    border-color: #656462;
+}
+.lefttext h3:hover{
+    color: white;
+    cursor: pointer;
+}
